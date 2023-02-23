@@ -1,4 +1,4 @@
-FROM clearlinux/node:18
+FROM clearlinux/node:16
 
 WORKDIR /usr/src
 
@@ -8,4 +8,4 @@ RUN npm ci
 
 EXPOSE 80
 
-CMD ["node", "run", "index.js"]
+CMD ["node", "index.js"]
