@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  houdini-thumb-generator:
+    build:
+      context: ./
+      dockerfile: ./docker/dev/Dockerfile
+    container_name: houdini-thumb-generator
+    ports:
+      - 3001:3000
+    volumes:
+      - ./:/usr/src/

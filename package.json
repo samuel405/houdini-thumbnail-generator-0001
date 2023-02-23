@@ -1,0 +1,27 @@
+{
+  "name": "houdini-thumbnail-generator-0001",
+  "version": "1.0.0",
+  "description": "Thumbnail Generator",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuel405/houdini-thumbnail-generator-0001.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Imagemagick"
+  ],
+  "author": "Samuel da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuel405/houdini-thumbnail-generator-0001/issues"
+  },
+  "homepage": "https://github.com/samuel405/houdini-thumbnail-generator-0001#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
